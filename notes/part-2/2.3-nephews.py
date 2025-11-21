@@ -10,11 +10,11 @@
 # Please type in your name: -> input: 'Morty'
 # I think you might be one of Mickey Mouse's nephews.
 
-Sample output
+## Sample output
 # Please type in your name: -> input: 'Huey'
 # I think you might be one of Donald Duck's nephews.
 
-Sample output
+## Sample output
 # Please type in your name: -> input: 'Ken'
 # You're not a nephew of any character I know of.
 
