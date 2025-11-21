@@ -10,17 +10,17 @@ All filenames follow the original exercise numbering on the MOOC website
 
 ## 📁 Repository Structure
 
-```
-Python-Programming-MOOC/
-│
-├── part-1/ # Introduction, I/O, variables, conditional statements  
-├── part-2/ # More conditions, loops  
-├── part-3/ # More loops, strings  
-├── part-4/ # Own functions  
-├── part-5/ # Lists and other data structures  
-├── part-6/ # Files  
-└── part-7/ # External libraries  
-```
+
+Python-Programming-MOOC/  
+│  
+├── [part-1](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-1)/ Introduction, I/O, variables, conditional statements  
+├── [part-2](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-2)/ More conditions, loops  
+├── [part-3](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-3)/ More loops, strings  
+├── part-4/ Own functions  
+├── part-5/ Lists and other data structures  
+├── part-6/ Files  
+└── part-7/ External libraries  
+
 
 Each folder contains:
 - One `.py` file per exercise  
