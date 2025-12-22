@@ -1,8 +1,10 @@
 ## Please write a function named mean, which takes three integer arguments.
 ## The function should print out the arithmetic mean of the three arguments.
 
+#---------------#
 # mean(5, 3, 1)
 # mean(10, 1, 1)
+#---------------#
 
 ## Sample output
 # 3.0
