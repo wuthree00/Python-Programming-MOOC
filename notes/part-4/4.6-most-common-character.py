@@ -25,6 +25,5 @@ def most_common_character(my_string):
 if __name__ == "__main__":
     first_string = "abcdbde"
     print(most_common_character(first_string))
-
     second_string = "exemplaryelementary"
     print(most_common_character(second_string))
