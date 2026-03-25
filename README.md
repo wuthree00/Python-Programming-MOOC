@@ -5,7 +5,7 @@ I previously enrolled in the 2025 edition and transitioned to the 2026 edition o
 
 ---
 
-Exercises are organised into folders according to the course structure (Part 1 to Part 4).
+Exercises are organised into folders according to the course structure (i.e. Part 1 to Part 5).
 This repository is updated continuously as I progress through the course.
 
 All filenames follow the original exercise numbering on the MOOC website  
@@ -22,15 +22,14 @@ Python-Programming-MOOC/
 ├── [part-2](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-2)/ **More conditions, loops**  
 ├── [part-3](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-3)/ **Loops with conditions, strings, defining functions**  
 ├── [part-4](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-4)/ **Own functions, lists, definite iteration, print statement formatting**  
-├── part-5/ **More lists, references, dictionary, tuple**  
+├── [part-5](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-5)/ **More lists, references, dictionary, tuple**  
 ├── part-6/ **Reading and writing files, handling errors, local and global variables**  
 └── part-7/ **Modules, randomness, times and dates, data processing, creating own modules**  
 
 
 Each folder contains:
 - One `.py` file per exercise  
-- Filenames matching the sections in the MOOC  
-- Self-contained scripts with no external dependencies
+- Filenames matching the exercises in the MOOC  
 
 ---
 
