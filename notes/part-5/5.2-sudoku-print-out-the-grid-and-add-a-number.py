@@ -60,6 +60,21 @@
 #_ _ _  _ _ _  _ _ _  #
 #---------------------#
 
+## Hint: Remember it is possible to call the print function without causing a line change:
+#-------------------------------------------#
+# print("characters ", end="")              #
+# print("without carriage returns", end="") #
+#-------------------------------------------#
+
+# Sample output:
+#-------------------------------------#
+# characters without carriage returns #
+#-------------------------------------#
+
+# Sometimes you need just a new line, which a print statement without any argument will achieve:
+# print()
+
+
 
 ##Solution:
 def print_sudoku(sudoku: list):
