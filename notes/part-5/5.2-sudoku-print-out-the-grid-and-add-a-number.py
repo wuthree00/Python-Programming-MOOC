@@ -1,0 +1,126 @@
+## In this exercise we will complete two more functions for the sudoku project from the previous section: print_sudoku and add_number.
+## The function print_sudoku(sudoku: list) takes a two-dimensional array representing a sudoku grid as its argument.
+## The function should print out the grid in the format specified in the examples below.
+## Recall how to print a sudoku grid
+
+# The function add_number(sudoku: list, row_no: int, column_no: int, number:int) takes a two-dimensional array representing a sudoku grid,
+# two integers referring to the row and column indexes of a single square,
+# and a single digit between 1 and 9, as its arguments.
+# The function should add the digit to the specified location in the grid.
+
+#----------------------------------#
+# sudoku  = [                      #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0], #
+#     [0, 0, 0, 0, 0, 0, 0, 0, 0]  #
+# ]                                #
+#                                  #
+# print_sudoku(sudoku)             #
+# add_number(sudoku, 0, 0, 2)      #
+# add_number(sudoku, 1, 2, 7)      #
+# add_number(sudoku, 5, 7, 3)      #
+# print()                          #
+# print("Three numbers added:")    #
+# print()                          #
+# print_sudoku(sudoku)             #
+#----------------------------------#
+
+##Sample output:
+#---------------------#
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#                     #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#                     #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#                     #
+# Three numbers added:#
+#                     #
+#2 _ _  _ _ _  _ _ _  #
+#_ _ 7  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#                     #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ 3 _  #
+#                     #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#_ _ _  _ _ _  _ _ _  #
+#---------------------#
+
+
+##Solution:
+def print_sudoku(sudoku: list):
+    for i in range(9): #loop thru 0 to 8 (9 rows)
+        if i % 3 == 0 and i != 0: #for every 3rd & 6th row, print a blank line
+            print()
+
+        for j in range(9): #loop thru 0-8 (9 squares aka columns)
+            if sudoku[i][j] > 0: #if that running number > 0, print that no. + space
+                print(f"{sudoku[i][j]}", end=" ")
+            else: #if that running number is 0, print _ + space
+                print("_", end=" ")
+            if j == 2 or j == 5: #after column of index 2 & 5 (aft 3rd & 6th square), print a space to separate the 3 _)
+                print(" ", end="") #print a space without printing new line
+        print() #print a new line after printing each row
+        
+def add_number(sudoku: list, row_no: int, column_no: int, number:int):
+    sudoku[row_no][column_no] = number
+
+
+if __name__ == "__main__":
+    sudoku = [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ]
+
+    print_sudoku(sudoku)
+    add_number(sudoku, 0, 0, 2)
+    add_number(sudoku, 1, 2, 7)
+    add_number(sudoku, 5, 7, 3)
+    print()
+    print("Three numbers added:")
+    print()
+    print_sudoku(sudoku)
+
+
+## The model solution provided:
+#def print_sudoku(sudoku: list):
+#    r = 0
+#    for row in sudoku:
+#        s = 0
+#        for character in row:
+#            s += 1
+#            if character == 0:
+#                character = "_"
+#            m = f"{character} "
+#            if s%3 == 0 and s < 8:
+#                m += " "
+#            print(m, end="")
+# 
+#        print()
+#        r += 1
+#        if r%3 == 0 and r < 8:
+#            print()
+# 
+#def add_number(sudoku: list, row_no: int, column_no: int, number: int):
+#    sudoku[row_no][column_no] = number
