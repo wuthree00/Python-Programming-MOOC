@@ -11,7 +11,8 @@
 # 27 * 15 = 405
 # 27 / 15 = 1.8
 
-## The program should work correctly even if the values of the variables are changed. That is, if the first two lines are replaced with this
+## The program should work correctly even if the values of the variables are changed.
+## That is, if the first two lines are replaced with this
 
 # x = 4
 # y = 9
