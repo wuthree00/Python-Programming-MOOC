@@ -1,4 +1,7 @@
-## This program asks the user for three numbers. The program then prints out their product, that is, the numbers multiplied by each other. There is, however, something wrong with the program - it doesn't work quite right, as you can see if you run it. Please fix it.
+## This program asks the user for three numbers.
+## The program then prints out their product, that is, the numbers multiplied by each other.
+## There is, however, something wrong with the program - it doesn't work quite right, as you can see if you run it.
+## Please fix it.
 
 # An example of the expected execution of the program:
 
