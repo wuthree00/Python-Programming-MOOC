@@ -16,7 +16,7 @@ All filenames follow the original exercise numbering on the MOOC website
 ## Repository Structure
 
 
-Python-Programming-MOOC/  
+Python-Programming-MOOC/notes  
 │  
 ├── [part-1](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-1)/ **Introduction, I/O, variables, conditional statements**  
 ├── [part-2](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-2)/ **More conditions, loops**  
