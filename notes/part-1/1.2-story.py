@@ -1,4 +1,5 @@
-## Please write a program which prints out the following story. The user gives a name and a year, which should be inserted into the printout.
+## Please write a program which prints out the following story.
+## The user gives a name and a year, which should be inserted into the printout.
 
 ## Sample output
 # Please type in a name: Mary
