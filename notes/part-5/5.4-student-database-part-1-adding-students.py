@@ -1,8 +1,10 @@
 ### PART 1 ###
 
-## NOTE: This exercise contains 4 parts, with each subsequent part building on the code used in the previous part ##
+## NOTE: This exercise contains 4 parts,
+## with each subsequent part building on the code used in the previous part
 
-# I've separated my solution into 4 files corresponding with each part for easy reference and comparison of changes made to the functions defined in the solution
+# I've separated my solution into 4 files corresponding with each part
+## for easy reference and comparison of changes made to the functions defined in the solution
 
 
 ## Adding students ##
