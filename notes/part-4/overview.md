@@ -1,4 +1,4 @@
-# This section provides an overview of part 4 of the MOOC
+# This file provides an overview of part 4 of the MOOC
 
 https://programming-26.mooc.fi/part-4
 
