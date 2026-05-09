@@ -2,7 +2,7 @@
 
 https://programming-26.mooc.fi/part-4
 
-*Exercises from this section onwards are completed in Visual Studio Code (and not on the website itself)*
+*From this section onwards, all exercises are completed in Visual Studio Code (and not on the website itself)*
 
 **4.1 The Visual Studio Code editor, Python interpreter and built-in debugging tool**
 - You will be equipped to use the Visual Studio Code editor to complete exercises on this course
