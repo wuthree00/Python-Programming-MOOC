@@ -23,7 +23,7 @@ Python-Programming-MOOC/notes
 ├── [part-3](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-3)/ **Loops with conditions, strings, defining functions**  
 ├── [part-4](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-4)/ **Own functions, lists, definite iteration, print statement formatting**  
 ├── [part-5](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-5)/ **More lists, references, dictionary, tuple**  
-├── part-6/ **Reading and writing files, handling errors, local and global variables**  
+├── [part-6](https://github.com/wuthree00/Python-Programming-MOOC/tree/main/notes/part-6)/ **Reading and writing files, handling errors, local and global variables**  
 └── part-7/ **Modules, randomness, times and dates, data processing, creating own modules**  
 
 
