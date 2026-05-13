@@ -1,5 +1,5 @@
 # Python Programming MOOC notes
-This repository contains my notes and solutions to the **[University of Helsinki Python Programming MOOC 2026](https://programming-26.mooc.fi/)**.
+This repository contains my notes and solutions to the **[University of Helsinki's Python Programming MOOC 2026](https://programming-26.mooc.fi/)**.
 
 I previously enrolled in the 2025 edition and transitioned to the 2026 edition on 24 January 2026. Course content appears to have remained identical.
 
