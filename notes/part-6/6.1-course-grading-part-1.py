@@ -83,7 +83,7 @@ with open(exercise_data) as new_file:
             continue
         exercises[parts[0]] = []
         for i in range(1, len(parts)): #add each exercise integer to dictionary. dict is exercises, key is id which is parts[0]
-            exercises[parts[0]].append(int(parts[i])) #add each exercise score to the list of exercises for this student))
+            exercises[parts[0]].append(int(parts[i])) #add no. of exercises completed to list of exercises for this student
         #dictionary: exercises[id] = [ex1, ex2, ex3...]
             
 for id, name in names.items():
