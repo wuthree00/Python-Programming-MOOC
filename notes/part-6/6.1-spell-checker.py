@@ -23,7 +23,8 @@
 # so you should not place any code within an if __name__ == "__main__" block.
 
 # NB2 If Visual Studio can't find the file and you have checked that there are no spelling errors,
-# take a look at these instructions. (https://programming-26.mooc.fi/part-6/1-reading-files#what-if-visual-studio-code-cannot-find-my-file)
+# take a look at these instructions.
+#https://programming-26.mooc.fi/part-6/1-reading-files#what-if-visual-studio-code-cannot-find-my-file
 
 
 ## My solution:
