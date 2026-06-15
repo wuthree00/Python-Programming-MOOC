@@ -24,7 +24,7 @@
 
 # NB2 If Visual Studio can't find the file and you have checked that there are no spelling errors,
 # take a look at these instructions.
-#https://programming-26.mooc.fi/part-6/1-reading-files#what-if-visual-studio-code-cannot-find-my-file
+# https://programming-26.mooc.fi/part-6/1-reading-files#what-if-visual-studio-code-cannot-find-my-file
 
 
 ## My solution:
@@ -49,22 +49,22 @@ print(sentence)
 
 
 ## The model solution provided:
-def wordlist():
-    words = []
+# def wordlist():
+#     words = []
  
-    with open("wordlist.txt") as file:
-        for row in file:
-            words.append(row.strip())
+#     with open("wordlist.txt") as file:
+#         for row in file:
+#             words.append(row.strip())
  
-    return words
+#     return words
  
-words = wordlist()
-sentence = input("Write text: ")
+# words = wordlist()
+# sentence = input("Write text: ")
  
-for word in sentence.split(' '):
-    if word.lower() in words:
-        print(word + " ", end="")
-    else:
-        print("*" + word + "* ", end="")
+# for word in sentence.split(' '):
+#     if word.lower() in words:
+#         print(word + " ", end="")
+#     else:
+#         print("*" + word + "* ", end="")
  
-print()
+# print()
