@@ -86,7 +86,7 @@ def search_by_name(filename: str, word: str):
             if i == 0 or lines[i-1] == "": #if index is 0 (aka first line) or the previous line is blank, then the current line is the recipe name
                 recipe_name = lines[i]
                 if word.lower() in recipe_name.lower(): #if search word is in the recipe name
-                    name_inside.append(recipe_name) #append recipe name to list if search word is inside
+                    name_inside.append(recipe_name) #append recipe name to list if it contains the search word
         return name_inside
 
 if __name__ == "__main__":
