@@ -1,6 +1,7 @@
 ## there are 3 parts to this exercise ##
 
 ## Part 1[https://github.com/wuthree00/Python-Programming-MOOC/blob/main/notes/part-6/6.1-recipe-search-part-1.py]
+## Part 3[https://github.com/wuthree00/Python-Programming-MOOC/blob/main/notes/part-6/6.1-recipe-search-part-3.py]
 
 ### Part 2: Search for recipes based on the preparation time
 ## Please write a function named search_by_time(filename: str, prep_time: int), which takes a filename and an integer as its arguments.
