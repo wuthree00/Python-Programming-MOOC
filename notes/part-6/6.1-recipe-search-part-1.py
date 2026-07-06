@@ -1,5 +1,9 @@
 ## there are 3 parts to this exercise ##
 
+## Part 2[https://github.com/wuthree00/Python-Programming-MOOC/blob/main/notes/part-6/6.1-recipe-search-part-2.py]
+## Part 3[https://github.com/wuthree00/Python-Programming-MOOC/blob/main/notes/part-6/6.1-recipe-search-part-3.py]
+
+
 # NB: Some exercises have multiple parts, and you can receive points for the different parts separately.
 # You can submit a partially completed exercise by choosing 'Submit Solution' from the menu next to the button for executing tests.
 
