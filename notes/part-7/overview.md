@@ -23,7 +23,7 @@ https://programming-26.mooc.fi/part-7
 
 **7.5 Creating your own modules**
 - You will be able to write your own modules
-- You will know what the Python variable \__name__\ and the value \__main__\ signify
+- You will know what the Python variable \__name__ and the value \__main__ signify
 
 **7.6 More Python features**
 - You will be familiar with some more Python features
