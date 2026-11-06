@@ -48,7 +48,7 @@ def lottery_numbers(amount: int, lower: int, upper: int):
     weekly_draw.sort()
     #.sort() sorts the original list and returns None
     # note we cannot use ascending = weekly_draw.sort()
-    # because "None" would be save in the variable "ascending"!
+    # because "None" would be saved in the variable "ascending"!
     return weekly_draw
 
 if __name__ == "__main__":
